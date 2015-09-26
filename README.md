@@ -1,12 +1,5 @@
 # flysystem-cloudinary-adapter
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
-
 This is quickly done in order to satisfy current needs. My contain a lot of bugs.
 I guess this is work in progress.
 
@@ -28,10 +21,6 @@ $config = [
 ];
 $filesystem = new League\Flysystem\Filesystem(new CloudinaryAdapter($config, new Cloudinary\Api));
 ```
-
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
 
